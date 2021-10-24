@@ -2,7 +2,7 @@ import React from "react";
 import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 import { AccountCircle, MoreVert, VideoCall, Apps } from '@material-ui/icons';
-import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Button } from '@material-ui/core';
 
 
 
