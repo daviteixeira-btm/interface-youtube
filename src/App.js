@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+//import { makeStyles } from '@material-ui/core/styles';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Home from './Home';
 
-const useStyles = makeStyles({
-  root: {},
-});
+//const useStyles = makeStyles({
+  //root: {},
+//});
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,7 +28,7 @@ function App() {
     },
   });
 
-  const classes = useStyles();
+  //const classes = useStyles();
 
   return (
     <ThemeProvider theme={theme}>
